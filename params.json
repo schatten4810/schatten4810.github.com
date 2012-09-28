@@ -1,0 +1,1 @@
+{"note":"Don't delete this file! It's used internally to help with page regeneration.","name":"Schatten4810.github.com","google":"UA-35171729-1","tagline":"しゃってん's 倉庫","body":"## Maven\r\n\r\n* Archetype for DBFlute\r\n\r\n```\r\nmvn archetype:generate -DarchetypeCatalog=http://schatten4810.github.com/maven \r\n```\r\n"}
