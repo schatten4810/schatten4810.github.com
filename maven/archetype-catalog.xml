@@ -4,7 +4,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <archetypes>
     <archetype>
-      <groupId>com.github.schatten4810.dbflute</groupId>
+      <groupId>jp.schatten.dbflute</groupId>
       <artifactId>dbflute-maven-archetype</artifactId>
       <version>0.0.1</version>
       <description>dbflute-maven-archetype</description>
