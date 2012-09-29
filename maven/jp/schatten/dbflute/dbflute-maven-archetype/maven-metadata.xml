@@ -3,10 +3,11 @@
   <groupId>jp.schatten.dbflute</groupId>
   <artifactId>dbflute-maven-archetype</artifactId>
   <versioning>
-    <release>0.0.1</release>
+    <release>0.0.2</release>
     <versions>
       <version>0.0.1</version>
+      <version>0.0.2</version>
     </versions>
-    <lastUpdated>20120928151007</lastUpdated>
+    <lastUpdated>20120929173850</lastUpdated>
   </versioning>
 </metadata>
