@@ -33,12 +33,13 @@
         <ol>
           <li>Generate
             <pre><code>mvn archetype:generate \
-    -DarchetypeCatalog=http://schatten4810.github.com/maven 
+    -DarchetypeCatalog=http://schatten4810.github.com/maven
 </code></pre>
+          <p>choose a jp.schatten.dbflute:dbflute-maven-archetype</p>
           </li>
-          <li>Create DBFlute Client
+          <li>Initialize DBFlute
             <pre><code>cd &lt;created artifactId&gt;
-mvn compile 
+mvn -Pinit-dbflute
 </code></pre>
           </li>
         </ol>
