@@ -33,14 +33,26 @@
         <ol>
           <li>Generate
             <pre><code>mvn archetype:generate \
-    -DarchetypeCatalog=http://schatten4810.github.com/maven
+    -DarchetypeCatalog=http://schatten4810.github.io/maven
 </code></pre>
-          <p>choose a jp.schatten.dbflute:dbflute-maven-archetype</p>
+            <p>choose a jp.schatten.dbflute:dbflute-maven-archetype</p>
+            <ul>
+              <li>groupId:{create maven groupId}</li>
+              <li>artifactId:{create maven artifactId}</li>
+              <li>version:{create maven version}</li>
+              <li>package:{project root pacakge}</li>
+              <li>clientProject:{dbflute client name. default is artifactId.}</li>
+              <li>container:{seasar,spring,guice,cdi}</li>
+              <li>containerVersion:{selected containers version.}</li>
+              <li>database:{h2,mysql,postgresql,oracle}</li>
+              <li>dbfluteVersion:{see <a href="http://dbflute.seasar.org/">DBFlute</a> site.}</li>
+            </ul>
           </li>
           <li>Initialize DBFlute
-            <pre><code>cd &lt;created artifactId&gt;
-mvn -Pinit-dbflute
-</code></pre>
+            <pre><code>cd &lt;created artifactId&gt;</code></pre>
+            <pre><code>mvn -Pinit-dbflute</code></pre>
+            or
+            <pre><code>mvn compile</code></pre>
           </li>
         </ol>
       </section>
