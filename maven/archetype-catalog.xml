@@ -6,7 +6,7 @@
     <archetype>
       <groupId>jp.schatten.dbflute</groupId>
       <artifactId>dbflute-maven-archetype</artifactId>
-      <version>0.1.1</version>
+      <version>0.1.2</version>
       <repository>http://schatten4810.github.io/maven</repository>
       <description>Archetype for DBFlute</description>
     </archetype>
